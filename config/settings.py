@@ -133,13 +133,13 @@ MEDIA_ROOT =os.path.join(BASE_DIR, 'frontend/static/images')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-MESSAGE_TAGS = {
-    messages.ERROR:'danger',
-    messages.SUCCESS:'success',
-    messages.INFO:'info',
-    messages.WARNING:'warning',
+# MESSAGE_TAGS = {
+#     messages.ERROR:'danger',
+#     messages.SUCCESS:'success',
+#     messages.INFO:'info',
+#     messages.WARNING:'warning',
     
-}
+# }
 
 CKEDITOR_CONFIGS = {
     'default': {
@@ -156,9 +156,9 @@ CKEDITOR_CONFIGS = {
 
 # mail_configurations
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
-EMAIL_USE_TLS = True #This is for encription    
-EMAIL_PORT = 587
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_HOST = "smtp.gmail.com"
+# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+# EMAIL_USE_TLS = True #This is for encription    
+# EMAIL_PORT = 587
